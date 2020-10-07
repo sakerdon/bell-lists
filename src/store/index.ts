@@ -1,15 +1,12 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import { LogStateInterface } from './modules/history';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+export interface RootState {
+  history: LogStateInterface;
+}
+
+// Declare empty store first, dynamically register all modules later.
+export default new Vuex.Store<RootState>({});

@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Africa", "items": [{ "id": 11, "name": "Somali" }] },
+  {
+    "id": 2,
+    "name": "Europe",
+    "items": [
+      { "id": 21, "name": "France" },
+      { "id": 22, "name": "Portugal" }
+    ]
+  },
+  { "id": 3, "name": "America" }
+]
